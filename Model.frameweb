@@ -54,5 +54,6 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-loja/adminLojaForm" supplier="//@compose.1/app%2Fadmin-loja.1/admin-loja" method="//@compose.1/app%2Fadmin-loja.1/admin-loja/save"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-loja/adminLojaForm" supplier="//@compose.1/app%2Fadmin-loja.1/admin-loja" method="//@compose.1/app%2Fadmin-loja.1/admin-loja/editImg"/>
   </compose>
 </frameweb:FramewebProject>
