@@ -15,6 +15,11 @@
           <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xsi:type="frameweb:DomainClass" name="Produto">
+        <ownedAttribute xsi:type="frameweb:DomainAttribute" name="nome" visibility="private">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
   </compose>
   <compose xsi:type="frameweb:NavigationModel" name="Navigation Model">
@@ -78,7 +83,17 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/admin-produto">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="admin-produto"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="admin-produto">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="edit">
+          <ownedParameter name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
+        </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="delete">
+          <ownedParameter name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/delete"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/edit"/>
   </compose>
 </frameweb:FramewebProject>
