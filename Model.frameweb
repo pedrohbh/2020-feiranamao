@@ -55,5 +55,30 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-loja/adminLojaForm" supplier="//@compose.1/app%2Fadmin-loja.1/admin-loja" method="//@compose.1/app%2Fadmin-loja.1/admin-loja/save"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-loja/adminLojaForm" supplier="//@compose.1/app%2Fadmin-loja.1/admin-loja" method="//@compose.1/app%2Fadmin-loja.1/admin-loja/editImg"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/admin-produto">
+      <packagedElement xsi:type="frameweb:Partial" name="admin-produto">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="table">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/table"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.id">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.name">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+          <qualifier xsi:type="frameweb:UIComponentField" name="produto.categoria.name">
+            <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+            <qualifier xsi:type="frameweb:UIComponentField" name="produto.estoque">
+              <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+            </qualifier>
+          </qualifier>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.preco">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/admin-produto">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="admin-produto"/>
+    </packagedElement>
   </compose>
 </frameweb:FramewebProject>
