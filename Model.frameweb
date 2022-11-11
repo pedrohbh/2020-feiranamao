@@ -107,6 +107,27 @@
         <ownedAttribute xsi:type="frameweb:UIComponentField" name="descricao.invalid">
           <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
         </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.categoria">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22select%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.estoque">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22number%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="estoque.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.custo">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22number%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="custo.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.preco">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22number%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="preco.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/app%2Fadmin-produto/@packagedElement.2/@ownedEnd.0 //@compose.1/app%2Fadmin-produto/admin-produto/@ownedAttribute.4">
         <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/app%2Fadmin-produto/admin-produto" association="//@compose.1/app%2Fadmin-produto/@packagedElement.2"/>
@@ -122,10 +143,16 @@
           <ownedParameter name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
         </ownedOperation>
         <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="save"/>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="cleanForm">
+          <ownedParameter name="form">
+            <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/Object"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/delete"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/edit"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/save"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/cleanForm"/>
   </compose>
 </frameweb:FramewebProject>
