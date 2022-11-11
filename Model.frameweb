@@ -82,7 +82,20 @@
         </ownedAttribute>
         <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/app%2Fadmin-produto/adminProdutoForm" association="//@compose.1/app%2Fadmin-produto/@packagedElement.2"/>
       </packagedElement>
-      <packagedElement xsi:type="frameweb:UIComponent" name="adminProdutoForm"/>
+      <packagedElement xsi:type="frameweb:UIComponent" name="adminProdutoForm">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.nome">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22text%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="nome.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.logo">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.logo">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/img"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/app%2Fadmin-produto/@packagedElement.2/@ownedEnd.0 //@compose.1/app%2Fadmin-produto/admin-produto/@ownedAttribute.4">
         <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/app%2Fadmin-produto/admin-produto" association="//@compose.1/app%2Fadmin-produto/@packagedElement.2"/>
       </packagedElement>
@@ -96,9 +109,11 @@
         <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="delete">
           <ownedParameter name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
         </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="save"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/delete"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/edit"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/save"/>
   </compose>
 </frameweb:FramewebProject>
