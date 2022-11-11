@@ -205,5 +205,25 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fcart/cartForm" supplier="//@compose.1/app%2Fcart.1/cart" method="//@compose.1/app%2Fcart.1/cart/enviarPedido"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/cart/cart-item">
+      <packagedElement xsi:type="frameweb:Partial" name="cart-item">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.name">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.valorUnitario">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.valorTotal">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.quantidade">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/cart/cart-item">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="cart-item"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fcart%2Fcart-item/cart-item" supplier="//@compose.1/app%2Fcart%2Fcart-item.1/cart-item"/>
   </compose>
 </frameweb:FramewebProject>
