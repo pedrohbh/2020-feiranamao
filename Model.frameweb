@@ -177,10 +177,33 @@
         <ownedAttribute xsi:type="frameweb:UIComponentField" name="produto.valorTotal">
           <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
         </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="ng-template">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/app%2Fcart/cartForm" association="//@compose.1/app%2Fcart/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="cartForm">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="descricao">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22textarea%22"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/app%2Fcart/@packagedElement.2/@ownedEnd.0 //@compose.1/app%2Fcart/cart/@ownedAttribute.8">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/app%2Fcart/cart" association="//@compose.1/app%2Fcart/@packagedElement.2"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/cart">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="cart"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="cart">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="descricao">
+          <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="produto" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Produto"/>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="enviarPedido">
+          <ownedParameter name="descricao">
+            <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fcart/cartForm" supplier="//@compose.1/app%2Fcart.1/cart" method="//@compose.1/app%2Fcart.1/cart/enviarPedido"/>
   </compose>
 </frameweb:FramewebProject>
