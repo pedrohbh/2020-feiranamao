@@ -18,7 +18,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebEntityModel']"/>
         <target xmi:type="frameweb:EntityModel" href="Model.frameweb#//@compose.0"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zxMaQGH5Ee2Pnr6-F1MYCg" name="FrameWebNavigationModel" repPath="#_zxIv4GH5Ee2Pnr6-F1MYCg" changeId="2b6a4dc6-cc96-4cc2-bc1b-33dd668446ae">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zxMaQGH5Ee2Pnr6-F1MYCg" name="FrameWebNavigationModel" repPath="#_zxIv4GH5Ee2Pnr6-F1MYCg" changeId="924d8cad-09ea-4ba9-89f5-42bec86cd0dd">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']"/>
         <target xmi:type="frameweb:NavigationModel" href="Model.frameweb#//@compose.1"/>
       </ownedRepresentationDescriptors>
@@ -907,6 +907,46 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_rK7jsWSZEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rK7jsmSZEe22Ber-dptxDg" x="847" y="1135"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_o5hsUGSaEe22Ber-dptxDg" type="2002" element="_o472cGSaEe22Ber-dptxDg">
+          <children xmi:type="notation:Node" xmi:id="_o5iTYGSaEe22Ber-dptxDg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_o5iTYWSaEe22Ber-dptxDg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_zOUV4GSaEe22Ber-dptxDg" type="3009" element="_zNaW8GSaEe22Ber-dptxDg">
+              <children xmi:type="notation:Node" xmi:id="_zOU88GSaEe22Ber-dptxDg" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_zOU88WSaEe22Ber-dptxDg" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_zOU88mSaEe22Ber-dptxDg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_zOU882SaEe22Ber-dptxDg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zOUV4WSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zOUV4mSaEe22Ber-dptxDg" x="20" y="28"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o5iTYmSaEe22Ber-dptxDg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o5iTY2SaEe22Ber-dptxDg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o5hsUWSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5hsUmSaEe22Ber-dptxDg" x="1060" y="1096"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qp9IIGSaEe22Ber-dptxDg" type="2002" element="_qpX5UGSaEe22Ber-dptxDg">
+          <children xmi:type="notation:Node" xmi:id="_qp9II2SaEe22Ber-dptxDg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_qp9IJGSaEe22Ber-dptxDg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_1_cZsGSaEe22Ber-dptxDg" type="3009" element="_1-5nIGSaEe22Ber-dptxDg">
+              <children xmi:type="notation:Node" xmi:id="_1_dAwGSaEe22Ber-dptxDg" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_1_dAwWSaEe22Ber-dptxDg" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_3eULcGSaEe22Ber-dptxDg" type="3010" element="_3dwx0GSaEe22Ber-dptxDg">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_3eULcWSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_3eULcmSaEe22Ber-dptxDg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_1_dAwmSaEe22Ber-dptxDg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_1_dAw2SaEe22Ber-dptxDg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1_cZsWSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_cZsmSaEe22Ber-dptxDg" x="55" y="33"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_qp9IJWSaEe22Ber-dptxDg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_qp9IJmSaEe22Ber-dptxDg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qp9IIWSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qp9IImSaEe22Ber-dptxDg" x="1220" y="1096"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_zxWyUmH5Ee2Pnr6-F1MYCg"/>
         <edges xmi:type="notation:Edge" xmi:id="_1_QX0GH6Ee2Pnr6-F1MYCg" type="4001" element="_1-lpcGH6Ee2Pnr6-F1MYCg" source="_L_dVEGH6Ee2Pnr6-F1MYCg" target="_ucz6EGH6Ee2Pnr6-F1MYCg">
           <children xmi:type="notation:Node" xmi:id="_1_Rl8GH6Ee2Pnr6-F1MYCg" type="6001">
@@ -1147,6 +1187,22 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bVFP42SaEe22Ber-dptxDg" points="[0, 0, -167, 0]$[167, 0, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bVF29GSaEe22Ber-dptxDg" id="(1.0,0.16470588235294117)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bVF29WSaEe22Ber-dptxDg" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_40TuAGSaEe22Ber-dptxDg" type="4001" element="_4zfOtGSaEe22Ber-dptxDg" source="_zOUV4GSaEe22Ber-dptxDg" target="_1_cZsGSaEe22Ber-dptxDg">
+          <children xmi:type="notation:Node" xmi:id="_40UVEGSaEe22Ber-dptxDg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_40UVEWSaEe22Ber-dptxDg" x="-10" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_40UVEmSaEe22Ber-dptxDg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_40UVE2SaEe22Ber-dptxDg" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_40UVFGSaEe22Ber-dptxDg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_40UVFWSaEe22Ber-dptxDg" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_40TuAWSaEe22Ber-dptxDg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_40TuAmSaEe22Ber-dptxDg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_40TuA2SaEe22Ber-dptxDg" points="[0, 0, -135, 10]$[135, 0, 0, 10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_40UVFmSaEe22Ber-dptxDg" id="(1.0,0.3191489361702128)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_40U8IGSaEe22Ber-dptxDg" id="(0.0,0.0)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -2143,6 +2199,60 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bUNGOWSaEe22Ber-dptxDg" lineStyle="dash" size="2" routingStyle="manhattan" strokeColor="69,69,69">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@edgeMappings[name='FrontControllerDependency%20Line']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bUNGOmSaEe22Ber-dptxDg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@edgeMappings[name='FrontControllerDependency%20Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_o472cGSaEe22Ber-dptxDg" name="app/navbar">
+      <target xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/app%2Fnavbar"/>
+      <semanticElements xmi:type="frameweb:ViewPackage" href="Model.frameweb#//@compose.1/app%2Fnavbar"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o48dgGSaEe22Ber-dptxDg" iconPath="/br.ufes.inf.nemo.FrameWeb_Martins2015.design/icons/NavigationPackage.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_zNaW8GSaEe22Ber-dptxDg" name="&lt;&lt;partial>>&#xA;navbar" outgoingEdges="_4zfOtGSaEe22Ber-dptxDg">
+        <target xmi:type="frameweb:Partial" href="Model.frameweb#//@compose.1/app%2Fnavbar/navbar"/>
+        <semanticElements xmi:type="frameweb:Partial" href="Model.frameweb#//@compose.1/app%2Fnavbar/navbar"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zNa-AGSaEe22Ber-dptxDg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']/@subContainerMappings[name='Partial%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='View%20Package']/@subContainerMappings[name='Partial%20Node']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qpX5UGSaEe22Ber-dptxDg" name="app/navbar">
+      <target xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/app%2Fnavbar.1"/>
+      <semanticElements xmi:type="frameweb:ControllerPackage" href="Model.frameweb#//@compose.1/app%2Fnavbar.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qpX5UWSaEe22Ber-dptxDg" iconPath="/br.ufes.inf.nemo.FrameWeb_Martins2015.design/icons/NavigationPackage.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1-5nIGSaEe22Ber-dptxDg" name="navbar" incomingEdges="_4zfOtGSaEe22Ber-dptxDg">
+        <target xmi:type="frameweb:FrontControllerClass" href="Model.frameweb#//@compose.1/app%2Fnavbar.1/navbar"/>
+        <semanticElements xmi:type="frameweb:FrontControllerClass" href="Model.frameweb#//@compose.1/app%2Fnavbar.1/navbar"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1-7cUGSaEe22Ber-dptxDg" showIcon="false" iconPath="/br.ufes.inf.nemo.FrameWeb_Martins2015.design/icons/NavigationPackage.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@subContainerMappings[name='Front%20Controller%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@subContainerMappings[name='Front%20Controller%20Node']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_3dwx0GSaEe22Ber-dptxDg" name=" + logout () : void">
+          <target xmi:type="frameweb:FrontControllerMethod" href="Model.frameweb#//@compose.1/app%2Fnavbar.1/navbar/logout"/>
+          <semanticElements xmi:type="frameweb:FrontControllerMethod" href="Model.frameweb#//@compose.1/app%2Fnavbar.1/navbar/logout"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_3dwx0WSaEe22Ber-dptxDg" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@subContainerMappings[name='Front%20Controller%20Node']/@subNodeMappings[name='Front%20Controller%20Method%20Node']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@containerMappings[name='Controller%20Package']/@subContainerMappings[name='Front%20Controller%20Node']/@subNodeMappings[name='Front%20Controller%20Method%20Node']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4zfOtGSaEe22Ber-dptxDg" name="{method=logout}" sourceNode="_zNaW8GSaEe22Ber-dptxDg" targetNode="_1-5nIGSaEe22Ber-dptxDg">
+      <target xmi:type="frameweb:FrontControllerDependency" href="Model.frameweb#//@compose.1/@packagedElement.27"/>
+      <semanticElements xmi:type="frameweb:FrontControllerDependency" href="Model.frameweb#//@compose.1/@packagedElement.27"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4zfOtWSaEe22Ber-dptxDg" lineStyle="dash" size="2" routingStyle="manhattan" strokeColor="69,69,69">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@edgeMappings[name='FrontControllerDependency%20Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4zfOtmSaEe22Ber-dptxDg" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/br.ufes.inf.nemo.FrameWeb_Martins2015.design/description/FrameWeb.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='FrameWebNavigationModel']/@defaultLayer/@edgeMappings[name='FrontControllerDependency%20Line']"/>
     </ownedDiagramElements>

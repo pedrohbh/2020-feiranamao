@@ -295,5 +295,14 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Flojas/lojas" supplier="//@compose.1/app%2Flojas.1/lojas"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/navbar">
+      <packagedElement xsi:type="frameweb:Partial" name="navbar"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/navbar">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="navbar">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="logout"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fnavbar/navbar" supplier="//@compose.1/app%2Fnavbar.1/navbar" method="//@compose.1/app%2Fnavbar.1/navbar/logout"/>
   </compose>
 </frameweb:FramewebProject>
