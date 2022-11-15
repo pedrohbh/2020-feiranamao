@@ -304,5 +304,71 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fnavbar/navbar" supplier="//@compose.1/app%2Fnavbar.1/navbar" method="//@compose.1/app%2Fnavbar.1/navbar/logout"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/produto">
+      <packagedElement xsi:type="frameweb:Partial" name="produto">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="loja.nome"/>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="ng-container">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="ng-container">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="ng-template">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="f-produto-item">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/produto">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="produto">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="loja" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Loja"/>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="fecharPedido"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fproduto/produto" supplier="//@compose.1/app%2Fproduto.1/produto" method="//@compose.1/app%2Fproduto.1/produto/fecharPedido"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/produto/dialog-produto-info">
+      <packagedElement xsi:type="frameweb:Partial" name="dialog-produto-info">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="mat-dialog-title">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="mat-dialog-content">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.gordura">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.proteina">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.descricao">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/produto/dialog-produto-info">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="dialog-produto-info"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fproduto%2Fdialog-produto-info/dialog-produto-info" supplier="//@compose.1/app%2Fproduto%2Fdialog-produto-info.1/dialog-produto-info"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/produto/produto-item">
+      <packagedElement xsi:type="frameweb:Partial" name="produto-item">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="mat-dialog-title">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="mat-dialog-content">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.gordura">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.proteina">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="data?.descricao">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/li"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
   </compose>
 </frameweb:FramewebProject>
