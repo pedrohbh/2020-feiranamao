@@ -379,15 +379,25 @@
         <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.dono">
           <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/span"/>
         </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/app%2Fusuario/usuarioForm" association="//@compose.1/app%2Fusuario/@packagedElement.2"/>
+      </packagedElement>
+      <packagedElement xsi:type="frameweb:UIComponent" name="usuarioForm"/>
+      <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/app%2Fusuario/@packagedElement.2/@ownedEnd.0 //@compose.1/app%2Fusuario/usuario/@ownedAttribute.5">
+        <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/app%2Fusuario/usuario" association="//@compose.1/app%2Fusuario/@packagedElement.2"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/usuario">
       <packagedElement xsi:type="frameweb:FrontControllerClass" name="usuario">
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        <ownedAttribute xsi:type="frameweb:IOParameter" name="form" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Form"/>
         <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="editUsuario">
           <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
         </ownedOperation>
         <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="deleteUsuario">
           <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="saveUsuario">
+          <ownedParameter name="form" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Form"/>
         </ownedOperation>
       </packagedElement>
     </packagedElement>
