@@ -359,14 +359,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/success">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="success">
-        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="editUsuario">
-          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
-        </ownedOperation>
-        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="deleteUsuario">
-          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
-        </ownedOperation>
-      </packagedElement>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="success"/>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" supplier="//@compose.1/app%2Fsuccess.1/success"/>
     <packagedElement xsi:type="frameweb:ViewPackage" name="app/usuario">
@@ -389,7 +382,14 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/usuario">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="usuario"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="usuario">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="editUsuario">
+          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="deleteUsuario">
+          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fsuccess/sucess" supplier="//@compose.1/app%2Fsuccess.1/success"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuario" supplier="//@compose.1/app%2Fusuario.1/usuario"/>
