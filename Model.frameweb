@@ -2,7 +2,7 @@
 <frameweb:FramewebProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frameweb="http://nemo.inf.ufes.br/projects/frameweb/FW-2015" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <compose xsi:type="frameweb:EntityModel" name="Entity Model">
     <packagedElement xsi:type="frameweb:DomainPackage" name="br.ufes.informatica.oldenburg.core.domain">
-      <packagedElement xsi:type="frameweb:DomainClass" name="Author">
+      <packagedElement xsi:type="frameweb:DomainClass" name="Usuario">
         <ownedAttribute xsi:type="frameweb:DomainAttribute" name="nome" visibility="private" size="100">
           <type xsi:type="uml:Class" href="frameweb/Java.frameweb#//@compose.0/String"/>
         </ownedAttribute>
@@ -352,15 +352,46 @@
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fproduto%2Fdialog-produto-info/dialog-produto-info" supplier="//@compose.1/app%2Fproduto%2Fdialog-produto-info.1/dialog-produto-info"/>
     <packagedElement xsi:type="frameweb:ViewPackage" name="app/success">
-      <packagedElement xsi:type="frameweb:Page" name="success">
+      <packagedElement xsi:type="frameweb:Partial" name="sucess">
         <ownedAttribute xsi:type="frameweb:UIComponentField" name="figure">
           <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/External%20Component"/>
         </ownedAttribute>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:ControllerPackage" name="app/success">
-      <packagedElement xsi:type="frameweb:FrontControllerClass" name="success"/>
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="success">
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="editUsuario">
+          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="deleteUsuario">
+          <ownedParameter name="usuario" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Usuario"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fsuccess/success" supplier="//@compose.1/app%2Fsuccess.1/success"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" supplier="//@compose.1/app%2Fsuccess.1/success"/>
+    <packagedElement xsi:type="frameweb:ViewPackage" name="app/usuario">
+      <packagedElement xsi:type="frameweb:Partial" name="usuario">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="table">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/table"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.id">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.login">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.nome">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/td"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.dono">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/span"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:ControllerPackage" name="app/usuario">
+      <packagedElement xsi:type="frameweb:FrontControllerClass" name="usuario"/>
+    </packagedElement>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fsuccess/sucess" supplier="//@compose.1/app%2Fsuccess.1/success"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuario" supplier="//@compose.1/app%2Fusuario.1/usuario"/>
   </compose>
 </frameweb:FramewebProject>
