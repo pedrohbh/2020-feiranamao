@@ -427,9 +427,9 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fsuccess/sucess" supplier="//@compose.1/app%2Fsuccess.1/success"/>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuario" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/editUsuario"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/saveUsuario"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/cleanForm"/>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuario" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/deleteUsuario"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/deleteUsuario"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/editUsuario"/>
   </compose>
 </frameweb:FramewebProject>

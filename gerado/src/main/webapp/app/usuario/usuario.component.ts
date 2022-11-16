@@ -19,6 +19,10 @@ import { Component, OnInit } from '@angular/core';
 	
 	<button (click)="cleanForm">cleanForm</button>
 	
+	<button (click)="deleteUsuario">deleteUsuario</button>
+	
+	<button (click)="editUsuario">editUsuario</button>
+	
 	</form>`
 })
 export class usuario implements OnInit
