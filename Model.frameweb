@@ -381,7 +381,29 @@
         </ownedAttribute>
         <ownedAttribute xsi:type="frameweb:NavigationCompositionWhole" type="//@compose.1/app%2Fusuario/usuarioForm" association="//@compose.1/app%2Fusuario/@packagedElement.2"/>
       </packagedElement>
-      <packagedElement xsi:type="frameweb:UIComponent" name="usuarioForm"/>
+      <packagedElement xsi:type="frameweb:UIComponent" name="usuarioForm">
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.login">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22text%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.nome">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22text%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.senha">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22password%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="usuario.dono">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/input%20type=%22checkbox%22"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="login.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="nome.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+        <ownedAttribute xsi:type="frameweb:UIComponentField" name="senha.invalid">
+          <type xsi:type="frameweb:Tag" href="frameweb/jbutler/NavigationModel_JButler_JSF_PrimeFaces.frameweb#//@configures.0/HTML/div"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xsi:type="frameweb:NavigationAssociation" memberEnd="//@compose.1/app%2Fusuario/@packagedElement.2/@ownedEnd.0 //@compose.1/app%2Fusuario/usuario/@ownedAttribute.5">
         <ownedEnd xsi:type="frameweb:NavigationCompositionPart" type="//@compose.1/app%2Fusuario/usuario" association="//@compose.1/app%2Fusuario/@packagedElement.2"/>
       </packagedElement>
@@ -399,9 +421,14 @@
         <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="saveUsuario">
           <ownedParameter name="form" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Form"/>
         </ownedOperation>
+        <ownedOperation xsi:type="frameweb:FrontControllerMethod" name="cleanForm">
+          <ownedParameter name="form" type="//@compose.0/br.ufes.informatica.oldenburg.core.domain/Form"/>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fsuccess/sucess" supplier="//@compose.1/app%2Fsuccess.1/success"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuario" supplier="//@compose.1/app%2Fusuario.1/usuario"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/saveUsuario"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/cleanForm"/>
   </compose>
 </frameweb:FramewebProject>
