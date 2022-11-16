@@ -19,6 +19,10 @@ import { Component, OnInit } from '@angular/core';
 	
 	<button (click)="cleanForm">cleanForm</button>
 	
+	<button (click)="edit">edit</button>
+	
+	<button (click)="delete">delete</button>
+	
 	</form>`
 })
 export class admin-produto implements OnInit

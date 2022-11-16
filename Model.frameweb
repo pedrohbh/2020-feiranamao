@@ -158,8 +158,6 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/delete"/>
-    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/admin-produto" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/edit"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/save"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/cleanForm"/>
     <packagedElement xsi:type="frameweb:ViewPackage" name="app/cart">
@@ -431,5 +429,7 @@
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/cleanForm"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/deleteUsuario"/>
     <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fusuario/usuarioForm" supplier="//@compose.1/app%2Fusuario.1/usuario" method="//@compose.1/app%2Fusuario.1/usuario/editUsuario"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/edit"/>
+    <packagedElement xsi:type="frameweb:FrontControllerDependency" client="//@compose.1/app%2Fadmin-produto/adminProdutoForm" supplier="//@compose.1/app%2Fadmin-produto.1/admin-produto" method="//@compose.1/app%2Fadmin-produto.1/admin-produto/delete"/>
   </compose>
 </frameweb:FramewebProject>
